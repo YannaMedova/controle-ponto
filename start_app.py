@@ -12,7 +12,7 @@ except:
 
 def _run():
     ft.app(
-        target=main.main,
+        target=main.tela_login,
         view=ft.WEB_BROWSER,   # Abre no navegador no Render
         port=8000,             # Porta padrão correta do Render
         host="0.0.0.0"         # Necessário para Render aceitar conexões externas
@@ -20,3 +20,4 @@ def _run():
 
 if __name__ == "__main__":
     _run()
+
