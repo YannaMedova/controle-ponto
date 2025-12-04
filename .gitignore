@@ -1,0 +1,7 @@
+# Ignorar dados reais do usuário
+dados_ponto.json
+config.json
+
+# Outros arquivos locais
+*.db
+.env
